@@ -18,23 +18,19 @@ You may also see any lint errors in the console.
 
 ## Sign_UP Page
 
-![](/Images/1.JPG)
+![](/Images/1.PNG)
 
 ## Sign_IN Page
 
-![](/Images/2.JPG)
+![](/Images/2.PNG)
 
 ## Add_Order Page
 
 ![](/Images/3.JPG)
 
-## get All_User Page
+## get All_User With User_ID Page
 
 ![](/Images/4.JPG)
-
-## get User By Id Page
-
-![](/Images/5.JPG)
 
 ### `npm test`
 
