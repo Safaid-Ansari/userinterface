@@ -1,8 +1,13 @@
 import "../styles/Header.css";
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
+  const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
   return (
     <div className="header">
       {/* <Link to="/"> */}
@@ -26,6 +31,12 @@ function Header() {
             Login{" "}
           </Link>
         </span>
+
+        {localStorage.getItem("user") ? (
+          <span onClick={logout}>Logout</span>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
