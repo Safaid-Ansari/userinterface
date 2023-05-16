@@ -61,10 +61,9 @@ span:hover {
     object-fit: contain;
     height: 70px;
     margin-left: 20px;
+    border-radius: 8px;
+
 }
-
-
-
 
 .header__center>input {
     border: none;

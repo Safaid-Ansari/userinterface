@@ -14,7 +14,7 @@ function Header() {
       <Link to="/order-list" title="home page">
         <img
           className="header__icon"
-          src="http://assets.limetray.com/assets/loyalty/production/1648037756_1647263712VooshLogo1.png"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbWVmGZETeZJcWPUwj7pNfF6-bO4j9paWj6XOiiciDd2O8Vn8ErpJ59gfVPvr5Lc-Aq9s&usqp=CAU"
           alt="wasserstoff logo"
         />
       </Link>
